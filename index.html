@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="rg.css">
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: whitesmoke;
+      }
+          h1,p{
+            text-align: center;
+          }
+      form {
+        padding: 10px;
+        height: 650px;
+        margin:right 500px;
+        border-radius: 6px;
+        background-color: rgb(102, 50, 54);
+        margin-top: 60px;
+        width:500px;
+        margin-left: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+      }
+      ::placeholder{
+        font-weight: bold;
+        margin: 2px;
+        padding:6px;
+        flex-direction: column;
+      }
+      
+      h1, p {
+        text-align: center;
+      }
+      
+      /* desired spacing for input fields */
+      input {
+        margin: 0.25em 0em 1em 0em;
+      }
+              /* more styles added to beautify the input fields */
+      input {
+        margin: 0.25em 0em 1em 0em;
+        outline: none;
+        padding: 0.5em;
+        border: none;
+        background-color: rgb(225, 225, 225);
+        border-radius: 0.25em;
+        color: black;
+      }
+              /* styles for button */
+      button {
+        padding: 0.75em;
+        border: none;
+        outline: none;
+        background-color: rgb(68, 18, 232);
+        color: white;
+        border-radius: 0.25em;
+      }
+      
+      /* hover functionality for button */
+      button:hover {
+        cursor: pointer;
+        background-color: rgb(41, 4, 164);
+      }
+          </style>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <center>
+                <h2 style="color: white;">REGISTRATION FORM</h2>
+                <img src="boy.jpg" width="100" height="75"><br><br>
+                <div class="k">
+                <Input type="text" id="name" class name="name" placeholder="First Name">
+                <Input type="text" id="name" class name="name"placeholder="Last Name"><br><br>
+                </div>
+                <img src="user.jpg" width="30" height="20">
+                <Input type="text" id="name" placeholder="Username"><br><br>
+                <img src="email.jpg" width="30" height="20">
+                <Input type="email" id="email" placeholder="Email"><br><br>
+                <img src="phone.jpg" width="30" height="20">
+                <Input type="tel" id="tel.number" placeholder="Tel.Number"><br><br>
+                <img src="password.jpg" width="30" height="20">
+                <Input type="password" id="password" placeholder="Password"><br><br>
+                <img src="confirm.jpg" width="30" height="20">
+                <Input type="password" id="confirm password" placeholder="Confirm password"><br><br>
+                <div><button type="OK">OK</button></div>
+                
+
+
+            </center>
+            
+        </div>
+    </form>
+</body>
+</html>
